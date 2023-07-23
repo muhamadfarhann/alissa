@@ -188,7 +188,7 @@
                
                 // varying values for setTimeout during typing
                 // can't be global since number changes each time loop is executed
-                var humanize = Math.round(Math.random() * (100 - 30)) + this.backSpeed;
+                var humanize = Math.round(Math.random() * (100 - 50)) + this.backSpeed;
                 var self = this;
 
                 self.timeout = setTimeout(function() {
